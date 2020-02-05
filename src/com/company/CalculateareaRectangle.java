@@ -4,10 +4,10 @@ import java.util.Scanner;
 
 public class CalculateareaRectangle {
     public static void main(String[] args) {
-        /*System.out.print("Enter Length\t:\t");
+        System.out.print("Enter Length\t:\t");
         int Width;
         Width = myScanner.nextInt();
-        System.out.println("Area :  );*/
+        System.out.println("Area :  ");
 
         Scanner myScanner = new Scanner(System.in);
         float price;
@@ -25,13 +25,13 @@ public class CalculateareaRectangle {
         System.out.format("Total payment is $ %.2f and monthly payment is $ %.2f for %d month/s",price,(price-discount-downPayment)/howManyMonth,howManyMonth);
 
 
-        /*Scanner myScanner = new Scanner(System.in);
+        Scanner myScanner = new Scanner(System.in);
         System.out.print ("Write Radius: ");
         float radius;
         Float PI = 3.18F;
         radius = myScanner.nextFloat();
         System.out.format("Peremeter of circle is %.2f", 2*radius*PI);
-        */
+
 
 
     }
